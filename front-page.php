@@ -15,11 +15,11 @@ get_header(); ?>
 			<?php while ( have_posts() ): the_post(); ?>
 				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
-				<div class="social-btns">  <!-- populate or remove as many of these as you want -->
+				<div class="social-btns-container">  <!-- populate or remove as many of these as you want -->
 					<div class="social-btns">
-						<a href="https://twitter.com/Glitch_Delgado" class="soc-icon tw"><span class="screen-reader-text">Twitter</span></a>
-						<a href="https://www.linkedin.com/feed/" class="soc-icon ln"><span class="screen-reader-text">LinkedIn</span></a>
-						<a href="https://github.com/HenryDelGlitch" class="soc-icon gh"><span class="screen-reader-text">GitHub</span></a>
+						<a href="https://twitter.com/Glitch_Delgado" class="soc-icon tw" target="_blank"><span class="screen-reader-text">Twitter</span></a>
+						<a href="https://www.linkedin.com/feed/" class="soc-icon ln" target="_blank"><span class="screen-reader-text">LinkedIn</span></a>
+						<a href="https://github.com/HenryDelGlitch" class="soc-icon gh" target="_blank"><span class="screen-reader-text">GitHub</span></a>
 					</div>
 				</div>
 				<a href="<?php echo site_url('/blog/'); ?>" class="btn">View My Blog</a>
